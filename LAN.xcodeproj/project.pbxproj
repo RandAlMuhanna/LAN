@@ -11,6 +11,10 @@
 		A40D18F12A10F6E700FA206B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D18F02A10F6E700FA206B /* ContentView.swift */; };
 		A40D18F32A10F6E800FA206B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40D18F22A10F6E800FA206B /* Assets.xcassets */; };
 		A40D18F62A10F6E800FA206B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40D18F52A10F6E800FA206B /* Preview Assets.xcassets */; };
+		A40D18FE2A114F5300FA206B /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D18FD2A114F5300FA206B /* LoginPage.swift */; };
+		A40D19012A1150AE00FA206B /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D19002A1150AE00FA206B /* InputTextField.swift */; };
+		A40D19032A115C2F00FA206B /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D19022A115C2F00FA206B /* ButtonStyle.swift */; };
+		A40D19052A115FD900FA206B /* SignupPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D19042A115FD900FA206B /* SignupPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A40D18F02A10F6E700FA206B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A40D18F22A10F6E800FA206B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40D18F52A10F6E800FA206B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A40D18FD2A114F5300FA206B /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		A40D19002A1150AE00FA206B /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		A40D19022A115C2F00FA206B /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		A40D19042A115FD900FA206B /* SignupPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		A40D18ED2A10F6E700FA206B /* LAN */ = {
 			isa = PBXGroup;
 			children = (
+				A40D18FF2A11508500FA206B /* Components */,
+				A40D18FC2A114DB800FA206B /* UserAuthentication */,
 				A40D18EE2A10F6E700FA206B /* LANApp.swift */,
 				A40D18F02A10F6E700FA206B /* ContentView.swift */,
 				A40D18F22A10F6E800FA206B /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				A40D18F52A10F6E800FA206B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A40D18FC2A114DB800FA206B /* UserAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				A40D18FD2A114F5300FA206B /* LoginPage.swift */,
+				A40D19042A115FD900FA206B /* SignupPage.swift */,
+			);
+			path = UserAuthentication;
+			sourceTree = "<group>";
+		};
+		A40D18FF2A11508500FA206B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A40D19002A1150AE00FA206B /* InputTextField.swift */,
+				A40D19022A115C2F00FA206B /* ButtonStyle.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40D19032A115C2F00FA206B /* ButtonStyle.swift in Sources */,
+				A40D19012A1150AE00FA206B /* InputTextField.swift in Sources */,
+				A40D19052A115FD900FA206B /* SignupPage.swift in Sources */,
 				A40D18F12A10F6E700FA206B /* ContentView.swift in Sources */,
+				A40D18FE2A114F5300FA206B /* LoginPage.swift in Sources */,
 				A40D18EF2A10F6E700FA206B /* LANApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
